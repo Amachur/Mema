@@ -8,7 +8,7 @@
         Title="Window2" Height="450" Width="800">
     <Grid>
         <Grid Background="Black">
-            <TextBox HorizontalAlignment="Center" Margin="0,60,0,0" TextWrapping="Wrap" Text="Which one are you going to use now?" VerticalAlignment="Top" Width="472" TextChanged="TextBox_TextChanged_2" BorderBrush="#FFBBC8ED" Background="Black" Foreground="#FFFC913A" FontWeight="Bold" SelectionTextBrush="Black" BorderThickness="0,0,0,0" Height="46" FontSize="25"/>
+            <TextBox HorizontalAlignment="Center" Margin="0,60,0,0" TextWrapping="Wrap" Text="Which one are you going to use now?" VerticalAlignment="Top" Width="472"  BorderBrush="#FFBBC8ED" Background="Black" Foreground="#FFFC913A" FontWeight="Bold" SelectionTextBrush="Black" BorderThickness="0,0,0,0" Height="46" FontSize="25"/>
             <Image HorizontalAlignment="Left" Height="100" Margin="222,247,0,0" VerticalAlignment="Top" Width="100"/>
             <Image HorizontalAlignment="Left" Height="100" Margin="294,261,0,0" VerticalAlignment="Top" Width="100"/>
             <Image HorizontalAlignment="Left" Height="100" Margin="325,251,0,0" VerticalAlignment="Top" Width="100"/>
