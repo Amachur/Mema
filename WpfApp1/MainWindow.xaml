@@ -1,0 +1,63 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.481,0.519" Margin="-2,0,0,-7" Background="Black" HorizontalAlignment="Left" Width="850" Height="454" VerticalAlignment="Bottom">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="108*"/>
+            <ColumnDefinition Width="120*"/>
+            <ColumnDefinition Width="189*"/>
+            <ColumnDefinition Width="373*"/>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="39*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="107*"/>
+            <RowDefinition Height="323*"/>
+        </Grid.RowDefinitions>
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.316"/>
+                <TranslateTransform X="0.342" Y="-0.957"/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Button Content="Log in!" HorizontalAlignment="Left" Margin="77,223,0,0" VerticalAlignment="Top" Height="49" Width="164" RenderTransformOrigin="0,0.5" Click="Button_Click" Background="#FF868686" Foreground="White" BorderBrush="#FF4E4D4D" FontSize="18" FontWeight="Bold" FontFamily="Sans Serif Collection" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="5" Y="5"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label HorizontalAlignment="Left" Margin="7,2,0,0" VerticalAlignment="Top" Height="75" Width="111" FontWeight="Bold" FontSize="24" Background="Black" Focusable="True" Foreground="White" FontFamily="Sans Serif Collection" Grid.ColumnSpan="2">
+            <Label Content="Bank" HorizontalAlignment="Left" VerticalAlignment="Top" Height="70" Width="97" FontWeight="Bold" FontSize="36" Background="Black" Focusable="True" Foreground="White" FontFamily="Sans Serif Collection" RenderTransformOrigin="1.012,2.283"/>
+        </Label>
+        <Label Content="Log in now!" HorizontalAlignment="Left" Margin="22,26,0,0" VerticalAlignment="Top" Height="42" Width="323" FontWeight="Bold" FontSize="24" Background="Black" Focusable="True" RenderTransformOrigin="0.325,0.951" Foreground="White" Grid.Row="1" HorizontalContentAlignment="Center" Grid.Column="2" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="134,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="108" Foreground="White" Text="" RenderTransformOrigin="-0.168,0.337" Grid.Row="1" Grid.Column="5"/>
+        <Label Content="or" HorizontalAlignment="Left" VerticalAlignment="Top" Height="57" Width="89" FontSize="24" Background="Black" Focusable="True" Foreground="White" FontFamily="Sans Serif Collection" RenderTransformOrigin="1.012,2.283" Margin="154,221,0,0" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2"/>
+        <Label Content="Sign up" HorizontalAlignment="Left" VerticalAlignment="Top" Height="57" Width="89" FontSize="24" Background="Black" Focusable="True" Foreground="White" FontFamily="Sans Serif Collection" RenderTransformOrigin="1.012,2.283" Margin="60,219,0,0" Grid.Row="1" Grid.Column="3"/>
+        <Label Content="hub" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Height="36" Width="56" FontWeight="Bold" FontSize="24" Background="#FFFC913A" Focusable="True" RenderTransformOrigin="0.325,0.951" Foreground="Black" Grid.Column="1">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.211"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBlock HorizontalAlignment="Left" Margin="112,101,0,0" Grid.Row="1" TextWrapping="Wrap" Text="username:" VerticalAlignment="Top" Height="27" Width="88" Foreground="#FFFFFCFC" FontSize="16" RenderTransformOrigin="0.576,0.616" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="2,143,0,0" Grid.Row="1" TextWrapping="Wrap" Text="password:" VerticalAlignment="Top" Height="27" Width="88" Foreground="#FFFFFCFC" FontSize="16" Grid.Column="2"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="84,100,0,0" TextWrapping="Wrap" Text="      (insert your name here)" VerticalAlignment="Top" Width="221" TextChanged="TextBox_TextChanged" FontSize="16" Background="White" BorderBrush="#FF0D46EF" Foreground="#FFCFBBE0" Grid.Row="1" RenderTransformOrigin="0.507,-0.785" Grid.Column="2" Grid.ColumnSpan="2"/>
+        <PasswordBox Grid.Column="2" HorizontalAlignment="Left" Height="21" Margin="82,142,0,0" Grid.Row="1" VerticalAlignment="Top" Width="224" Password="(insert your password here)" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp1.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="800">
+    <Grid>
+        <Grid Background="Black">
+            <Grid HorizontalAlignment="Left" Height="256" Margin="103,86,0,0" VerticalAlignment="Top" Width="654" OpacityMask="#FFBF8F8F" Background="#FF5B5B5B">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="29*"/>
+                    <RowDefinition Height="22*"/>
+                </Grid.RowDefinitions>
+                <Label Content="Looks like you've ran &#xA;out of money, honey.&#xA;&#xA;Do you want to do something &#xA;else with me or see each&#xA; other next time?" HorizontalAlignment="Left" Margin="23,20,0,0" VerticalAlignment="Top" Height="216" Width="348" FontWeight="Bold" FontSize="24" Background="#00000000" Focusable="True" RenderTransformOrigin="0.325,0.951" Foreground="White" HorizontalContentAlignment="Center" Grid.RowSpan="2"/>
+            </Grid>
+            <TextBox HorizontalAlignment="Left" Margin="338,24,0,0" TextWrapping="Wrap" Text="Oops..." VerticalAlignment="Top" Width="178" TextChanged="TextBox_TextChanged_2" BorderBrush="#FFBBC8ED" Background="#FFFC913A" Foreground="Black" FontWeight="Bold" SelectionTextBrush="Black" BorderThickness="0,0,0,0" Height="62" FontSize="50"/>
+            <Button Content="Do a different transaction" HorizontalAlignment="Left" Margin="150,357,0,0" VerticalAlignment="Top" Height="54" Width="235" Background="#FF2F2F2F" FontSize="16" FontWeight="Bold"/>
+            <Button Content="Cancel" HorizontalAlignment="Left" Margin="478,357,0,0" VerticalAlignment="Top" Height="54" Width="234" Background="#FF2F2F2F" FontSize="16" FontWeight="Bold"/>
+            <Image Margin="458,0,10,92" Source="/WpfApp6;component/365811550_7287348747948812_142842611157736208_n-removebg-preview.png" Stretch="Fill"/>
+            <Image Margin="458,0,10,92" Source="/WpfApp6;component/365811550_7287348747948812_142842611157736208_n-removebg-preview.png" Stretch="Fill"/>
+            <Image Margin="461,0,43,92" Source="/365811550_7287348747948812_142842611157736208_n-removebg-preview.png" Stretch="Fill"/>
+        </Grid>
+
+    </Grid>
+</Window>

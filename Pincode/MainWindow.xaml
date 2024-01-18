@@ -1,0 +1,26 @@
+﻿<Window x:Class="Pincode.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pincode"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="283*"/>
+            <ColumnDefinition Width="517*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox HorizontalAlignment="Left" Margin="189,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" Height="75" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Margin="245,111,0,0" TextWrapping="Wrap" Text="P I N C O D E" VerticalAlignment="Top" Width="310" TextChanged="TextBox_TextChanged_2" BorderBrush="#FFBBC8ED" Background="Black" Foreground="#FFFC913A" FontWeight="Bold" SelectionTextBrush="Black" BorderThickness="0,0,0,0" Height="62" FontSize="50" Grid.ColumnSpan="2"/>
+        <TextBox HorizontalAlignment="Left" Margin="70,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" Height="75" TextChanged="TextBox_TextChanged" RenderTransformOrigin="0.692,0.501"/>
+        <TextBox HorizontalAlignment="Left" Margin="17,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" Height="75" TextChanged="TextBox_TextChanged" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="142,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" Height="75" TextChanged="TextBox_TextChanged" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="262,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" Height="75" TextChanged="TextBox_TextChanged" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="382,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" Height="75" TextChanged="TextBox_TextChanged" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="382,111,0,0" VerticalAlignment="Top" Width="100" Grid.Column="1"/>
+        <Image Margin="208,0,0,278" Source="/NoOneWillKnow.png" Stretch="Fill" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="70,397,0,0" TextWrapping="Wrap" Text="No one will ever know..." VerticalAlignment="Top" Width="248" TextChanged="TextBox_TextChanged_2" BorderBrush="#FFBBC8ED" Background="Black" Foreground="#FF868683" FontWeight="Bold" SelectionTextBrush="Black" BorderThickness="0,0,0,0" Height="27" FontSize="17" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
