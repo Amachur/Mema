@@ -64,6 +64,15 @@
     <Compile Include="Window3.xaml.cs">
       <DependentUpon>Window3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Window4.xaml.cs">
+      <DependentUpon>Window4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window5.xaml.cs">
+      <DependentUpon>Window5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window6.xaml.cs">
+      <DependentUpon>Window6.xaml</DependentUpon>
+    </Compile>
     <Page Include="HomePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -92,6 +101,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Window3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window6.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -145,6 +166,18 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="365811550_7287348747948812_142842611157736208_n-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1000_F_560975744_R0cOpUs8v6HozFQhimNqgbSkRyJ814Ab-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="młoda-arabska-kobieta-z-pięknym-ciałem-ono-uśmiecha-się-na-w-swimwear-117490422-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="young-blonde-girl-wearing-elegant-sexy-look-screaming-proud-celebrating-victory-success-very-excited-raised-arms-219427392-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="NoOneWillKnow.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

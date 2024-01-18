@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp1.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window4" Height="450" Width="800">
+    <Grid>
+        <Grid Background="Black">
+            <Image Margin="513,42,10,-1" Source="/WpfApp7;component/młoda-arabska-kobieta-z-pięknym-ciałem-ono-uśmiecha-się-na-w-swimwear-117490422-removebg-preview.png" Stretch="Fill"/>
+            <Image Margin="-22,53,540,10" Source="/WpfApp7;component/1000_F_560975744_R0cOpUs8v6HozFQhimNqgbSkRyJ814Ab-removebg-preview.png" Stretch="Fill"/>
+            <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" Text="Thank you!&#xA;&#xA;Let's see each other again soon, okay?&#xA;" VerticalAlignment="Top" Width="364" TextChanged="TextBox_TextChanged_2" BorderBrush="#FFBBC8ED" Foreground="Black" SelectionTextBrush="Black" BorderThickness="0,0,0,0" Height="98" FontSize="20" Margin="0,98,0,0" FontWeight="Bold" Background="#FF868686" HorizontalContentAlignment="Center"/>
+            <Button Content="Okay. I'll miss you" HorizontalAlignment="Left" Margin="421,268,0,0" VerticalAlignment="Top" Height="72" Width="161" Background="#FFFC973A" FontWeight="Bold" FontSize="16"/>
+            <Button Content="I want to be with&#xA;you again" HorizontalAlignment="Left" Margin="218,268,0,0" VerticalAlignment="Top" Height="72" Width="161" Background="#FFFC973A" FontWeight="Bold" FontSize="16" Click="Button_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Image Margin="-20,74,582,0" Source="/1000_F_560975744_R0cOpUs8v6HozFQhimNqgbSkRyJ814Ab-removebg-preview.png" Stretch="Fill"/>
+            <Image Margin="502,74,-16,0" Source="/młoda-arabska-kobieta-z-pięknym-ciałem-ono-uśmiecha-się-na-w-swimwear-117490422-removebg-preview.png" Stretch="Fill"/>
+
+        </Grid>
+
+    </Grid>
+</Window>
