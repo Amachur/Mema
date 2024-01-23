@@ -27,13 +27,23 @@ namespace WpfApp1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MainWindow var
-                = new MainWindow(); 
+                = new MainWindow();
+         
+            var.Show();
+            var.Close();
 
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
+          
         }
     }
 }

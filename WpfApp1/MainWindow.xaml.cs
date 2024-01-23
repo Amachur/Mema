@@ -34,12 +34,21 @@ namespace WpfApp1
         {
             HomePage variable = new HomePage();
             variable.Show();
-            variable.Close();
+            
+
         }
 
         private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
         {
 
+        }
+
+        private void OpenNextWindow()
+        {
+            MainWindow mainwindow = new MainWindow();
+            mainwindow.Show();
+            
+            
         }
     }
 }
