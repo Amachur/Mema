@@ -24,8 +24,15 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            HomePage homepage = new HomePage();
+            homepage.Show();
+            this.Close();
+        }
     }
-    
+
     public partial class OpenNextWindow
     {
         Window6 windoww = new Window6();

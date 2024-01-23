@@ -32,9 +32,10 @@ namespace WpfApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            HomePage variable = new HomePage();
-            variable.Show();
-            
+            Window6 window6 = new Window6();
+            window6.Show();
+            this.Close();
+
 
         }
 
@@ -47,8 +48,9 @@ namespace WpfApp1
         {
             MainWindow mainwindow = new MainWindow();
             mainwindow.Show();
-            
-            
+            this.Close();
+
+
         }
     }
 }

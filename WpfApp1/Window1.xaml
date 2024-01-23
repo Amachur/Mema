@@ -25,7 +25,7 @@
             </Image>
             <Image Margin="264,132,264,103" Source="/WpfApp4;component/WillingToRelease.png" Stretch="Fill"/>
             <TextBox HorizontalAlignment="Left" Margin="230,96,0,0" TextWrapping="Wrap" Text="How much are you willing to release?" VerticalAlignment="Top" Width="396"  BorderBrush="#FFBBC8ED" Background="Black" Foreground="#FFFC913A" FontWeight="Bold" SelectionTextBrush="Black" BorderThickness="0,0,0,0" Height="31" FontSize="20"/>
-            <Button Content="Withdraw" HorizontalAlignment="Center" Margin="0,366,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.473,1.709" Height="37" Width="114" Background="#FF5B5B5B"/>
+            <Button Content="Withdraw" HorizontalAlignment="Center" Margin="0,366,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.473,1.709" Height="37" Width="114" Background="#FF5B5B5B" Click="Button_Click"/>
             <Image Margin="264,132,264,103" Source="/WpfApp4;component/WillingToRelease.png" Stretch="Fill"/>
             <Image Margin="278,132,250,103" Source="/WpfApp4;component/WillingToRelease.png" Stretch="Fill"/>
             <Image Margin="241,127,263,103" Source="/WillingToRelease.png" Stretch="Fill"/>

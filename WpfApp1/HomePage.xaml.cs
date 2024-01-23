@@ -41,9 +41,18 @@ namespace WpfApp1
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
+            
+            Window2 window2 = new Window2();
+            window2.Show();
+            this.Close();
+
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
             Window1 window1 = new Window1();
             window1.Show();
-          
+            this.Close();
         }
     }
 }
